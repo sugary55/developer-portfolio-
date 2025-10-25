@@ -1,67 +1,43 @@
-.hero{
-    text-decoration: underline;
-    color: chocolate;
-    text-align: center;
-    padding: 50px 20px;
-
-}
-.navigation{
-    color: blue;
-    display: flex;
-    gap: 20px;
+/* Projects Page Styles */
+.projects-page {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
 }
-.logo{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+
+.project-list {
+    margin-top: 30px;
 }
-.projects{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
+
+.project-card {
+    background: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-left: 4px solid #007bff;
 }
-.projects button {
+
+.project-card h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.project-link {
+    display: inline-block;
     background: #007bff;
     color: white;
-    border: none;
     padding: 10px 20px;
+    text-decoration: none;
     border-radius: 5px;
-    cursor: pointer;
     margin-top: 10px;
 }
-.projects button:hover{
-    background:#403791 ;
-}
-.projects > div {
-    border: 2px solid #1f33479d;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    background: #f8f9fa;
-    min-width: 250px;
-}
-.projects label{
-    color: red;
-    text-decoration: underline;
-}
-.my_statment{
-    color: blueviolet;
-    background-color: yellow;
-    text-align: justify;
 
-}
-.my_statment>h1{
-    text-decoration: underline;
-    color: burlywood;
-}
-.my_statment>h2{
-    text-decoration: underline;
-    
-}
-.contact_title>h1{
-    color: rgb(158, 22, 158);
-    text-align: left;
-    text-decoration: underline;
+.project-link:hover {
+    background: #0056b3;
 }
