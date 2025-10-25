@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
-                <title>projects</title>
-                <link rel="stylesheet" href="css/styles.css">
+        <title>My Projects - Portfolio</title>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <div class="projects_main">
-             <div class="hero">
-                     <h1 align="center">See Past projects</h1>
-            </div>
-            <div class="projects">
-                <div>
-                       <h3>✅ Interactive Todo List</h3>
-                            <p>Full CRUD application with smooth animations and local storage</p>
-                 <div class="tech-stack">
-                                    <span>HTML</span>
-                                    <span>CSS</span>
-                                    <span>JavaScript</span>
-                                     <span>DOM Manipulation</span>
-                   </div>  
-                     <button onclick="window.open('https://sugary55.github.io/to-do-list-app')">live demo</button></br> 
-                </div>
+        <!-- Add Navigation Menu -->
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </nav>
 
-                                    <div class="project-card">
-                        <h3>🌤️ Live Weather App</h3>
-                        <p>Real-time weather forecasts using OpenWeatherMap API</p>
-                        <div class="tech-stack">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                            <span>API Integration</span>
-                        </div>
-                <div>
-                     
-                     <button onclick="window.open('https://sugary55.github.io/weather-app')">try app</button></br>
+        <div class="projects-page">
+            <h1>My Projects</h1>
+            
+            <div class="project-list">
+                <div class="project-card">
+                    <h3>Weather App</h3>
+                    <p>A responsive weather application that displays current weather conditions</p>
+                    <a href="https://sugary55.github.io/weather-app/" target="_blank" class="project-link">View Live Project</a>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Todo App</h3>
+                    <p>Task management application for organizing your daily activities</p>
+                    <a href="https://sugary55.github.io/to-do-list-app/" target="_blank" class="project-link">View Live Project</a>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Developer Portfolio</h3>
+                    <p>This responsive portfolio website showcasing my projects</p>
+                    <a href="https://sugary55.github.io/developer-portfolio-/" class="project-link">View Live Project</a>
                 </div>
             </div>
         </div>
-        <a href="./index.html">homepage</a>
+        
         <script src="js/script.js"></script>
     </body>
 </html>
