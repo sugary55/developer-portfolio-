@@ -6,7 +6,7 @@
 ## 📁 Projects Featured
 
 ### ✅ Todo List App
-- **Live Demo**: [Try Todo App](https://sugary55.github.io/todo-app)
+- **Live Demo**: [Try Todo App](https://sugary55.github.io/to-do-list-app)
 - **Features**: Add, complete, delete tasks with smooth animations
 - **Tech**: HTML, CSS, JavaScript
 
